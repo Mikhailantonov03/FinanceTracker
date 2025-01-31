@@ -1,0 +1,190 @@
+<resources>
+    <string name="app_name">Finance Tracker</string>
+
+<!-- nav tabs strings -->
+    <string name="payments_tab">Payments</string>
+    <string name="charts_tab">Charts</string>
+    <string name="accounts_tab">Accounts</string>
+    <string name="settings_tab">Settings</string>
+
+<!-- dual button text -->
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+    <string name="save">Save</string>
+    <string name="ok">OK</string>
+
+<!-- FAB icon description -->
+    <string name="fab_description">FAB Add payment</string>
+
+<!-- Charts announce text -->
+    <string name="announce_text">Coming soon…</string>
+
+<!-- CONST -->
+    <!-- months -->
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+
+    <!-- languages -->
+    <string name="english">English</string>
+    <string name="spanish">Spanish</string>
+    <string name="russian">Russian</string>
+
+    <!-- filter tags -->
+    <string name="week">WEEK</string>
+    <string name="month">MONTH</string>
+    <string name="all">ALL</string>
+
+<!--  Add Edit Money Source screen  -->
+    <string name="add_ms_title">Add Money Source</string>
+    <string name="edit_ms_title">Edit Money Source</string>
+    <string name="ms_name_label">Name of the source</string>
+    <string name="ms_amount_label">Amount of money</string>
+
+    <string name="error_input_amount">Invalid input amount! :(</string>
+    <string name="error_add_ms">Could not add money source :(</string>
+    <string name="error_update_ms">Could not update money source data :(</string>
+    <string name="error_ms_not_found">Error: Could not find this item :(</string>
+
+    <string name="include_in_total_row">Include in total balance</string>
+
+<!-- Money Sources -->
+    <string name="delete_text">Delete</string>
+    <string name="delete_dialog_text_1">Are you sure you want to</string>
+    <string name="delete_dialog_text_2">\u0020delete\u0020</string>
+    <string name="delete_dialog_text_3">this data? You will</string>
+    <string name="delete_dialog_text_4">\u0020no\u0020</string>
+    <string name="delete_dialog_text_5">longer restore it!</string>
+
+    <string name="one_time_dialog_1">You can</string>
+    <string name="one_time_dialog_2">\u0020not\u0020</string>
+    <string name="one_time_dialog_3">delete it!</string>
+    <string name="one_time_dialog_4">There must be at least</string>
+    <string name="one_time_dialog_5">\u0020one\u0020</string>
+    <string name="one_time_dialog_6">source of money</string>
+
+    <string name="money_sources">Money Sources</string>
+    <string name="total_included">Total included:</string>
+    <string name="total_money">Total money:</string>
+    <string name="delete_ms_description">delete money source</string>
+    <string name="error_delete_ms">Could not delete Money Source :(</string>
+
+<!-- Add edit payment bottom sheet -->
+    <string name="date_label">Date</string>
+    <string name="date_icon_description">date payment</string>
+    <string name="date_supporting_text">Date should be picked!</string>
+
+    <string name="description_label">Description</string>
+    <string name="description_supporting_text">Enter the description!</string>
+
+    <string name="amount_label">Amount</string>
+    <string name="amount_supporting_text_0">Enter the amount!</string>
+    <string name="amount_supporting_text_1">Pattern: 100.99</string>
+
+    <string name="month_tag_label">Month Tag</string>
+    <string name="month_tag_icon_description">month tag icon</string>
+    <string name="month_tag_supporting_text">Choose the month tag!</string>
+
+    <string name="money_source_label">Money source</string>
+    <string name="ms_icon_def_description">money source icon</string>
+    <string name="ms_icon_clean_description">money source clear icon</string>
+    <string name="ms_supporting_text">Choose your Money Source here</string>
+
+    <string name="income_checkbox">Income</string>
+    <string name="expense_checkbox">Expense</string>
+
+
+    <string name="error_add_payment">Could not add payment</string>
+    <string name="error_update_payment">Could not update payment</string>
+    <string name="error_ms_amount_update">Could not update money source amount value :(</string>
+
+<!-- home screen -->
+    <string name="amount_updating_animation">amount updating animation</string>
+    <string name="home_topbar_text">Payments</string>
+    <string name="incomes">Incomes</string>
+    <string name="expenses">Expenses</string>
+    <string name="budget">Budget</string>
+    <string name="error_get_payments_data">Problems with data retrieving :(</string>
+
+<!-- payments type list -->
+    <string name="total_amount">Total amount:</string>
+    <string name="undo_snackbar">Undo</string>
+    <string name="icon_arrow_back_description">arrow back</string>
+    <string name="icon_clear_filter_description">clear filter icon</string>
+    <string name="icon_filter_payments_description">filter payments</string>
+    <string name="icon_edit_payment_description">edit payment</string>
+    <string name="icon_delete_payment_description">delete payment</string>
+    <string name="item_deleted">Item deleted</string>
+    <string name="error_payment_delete">Could not delete the payment :(</string>
+    <string name="error_payment_restore">Could not restore the payment :(</string>
+
+<!-- settings screen -->
+    <string name="icon_flag_description">language flag</string>
+    <string name="settings_header">Settings</string>
+
+    <string name="language">Language</string>
+    <string name="choose_language_text">Choose the language of the app</string>
+    <string name="icon_language_description">language picker</string>
+
+    <string name="theme">Theme</string>
+    <string name="theme_body">Switch to the dark theme</string>
+    <string name="icon_theme_description">theme picker</string>
+
+    <string name="delete_settings">Delete</string>
+    <string name="delete_settings_body">Choose a data to delete</string>
+    <string name="icon_delete_all_description">delete all</string>
+
+    <string name="currency">Currency</string>
+    <string name="currency_body">Choose the currency of the app</string>
+    <string name="icon_currency_description">currency picker</string>
+
+    <string name="delete_payments1">Delete all\u0020</string>
+    <string name="delete_payments2">payments</string>
+    <string name="delete_mss1">Delete all\u0020</string>
+    <string name="delete_mss2">Money Sources</string>
+
+    <string name="error_delete_all">Could not delete :(</string>
+    <string name="error_currency_picked">Could not picked :(</string>
+
+<!-- Currency signs -->
+    <string name="none">None</string>
+    <string name="colon">\u20A1</string>
+    <string name="dollar">\u0024</string>
+    <string name="dram">\u058F</string>
+    <string name="euro">\u20AC</string>
+    <string name="frank">\u20A3</string>
+    <string name="guarani">\u20B2</string>
+    <string name="grivna">\u20B4</string>
+    <string name="lari">\u20BE</string>
+    <string name="lira">\u20BA</string>
+    <string name="manat">\u20BC</string>
+    <string name="naira">\u20A6</string>
+    <string name="peso">\u20B1</string>
+    <string name="pound">\u00A3</string>
+    <string name="ruble">\u20BD</string>
+    <string name="rupee">\u20B9</string>
+    <string name="shekel">\u20AA</string>
+<!--    <string name="som">\u20C0</string>-->
+    <string name="tenge">\u20B8</string>
+    <string name="tugrik">\u20AE</string>
+    <string name="won">\u20A9</string>
+    <string name="yen">\u00A5</string>
+    
+<!-- Chart screen  -->
+    <string name="chart_top_bar">Charts</string>
+    <string name="incomes_big">INCOMES</string>
+    <string name="expenses_big">EXPENSES</string>
+    <string name="sum">sum:</string>
+    <string name="no_data">No data!</string>
+
+
+</resources>

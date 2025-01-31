@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.FinanceTracker" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.MultiLanguages" parent="Theme.AppCompat.DayNight.NoActionBar" >
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="Theme.MySplashScreen" parent="Theme.SplashScreen" >
+        <item name="windowSplashScreenAnimatedIcon">@drawable/coin_pig_foreground</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/background</item>
+        <item name="windowSplashScreenBackground">@color/background</item>
+        <item name="postSplashScreenTheme">@style/Theme.MultiLanguages</item>
+    </style>
+
+</resources>

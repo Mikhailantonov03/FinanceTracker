@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Finance Tracker</string>
+
+<!--    SPANISH  -->
+
+    <!-- nav tabs strings   -->
+    <string name="payments_tab">Pagos</string>
+    <string name="charts_tab">Gráficos</string>
+    <string name="accounts_tab">Cuentas</string>
+    <string name="settings_tab">Ajustes</string>
+
+    <!-- dual button text -->
+    <string name="cancel">Cancelar</string>
+    <string name="add">Agregar</string>
+    <string name="save">Ahorrar</string>
+    <string name="ok">OK</string>
+
+    <!-- FAB icon description -->
+    <string name="fab_description">botón agregar pago</string>
+
+    <!-- Charts announce text -->
+    <string name="announce_text">Pronto…</string>
+
+    <!-- CONST -->
+        <!-- months -->
+    <string name="january">Enero</string>
+    <string name="february">Febrero</string>
+    <string name="march">Marzo</string>
+    <string name="april">Abril</string>
+    <string name="may">Mayo</string>
+    <string name="june">Junio</string>
+    <string name="july">Julio</string>
+    <string name="august">Agosto</string>
+    <string name="september">Septiembre</string>
+    <string name="october">Octubre</string>
+    <string name="november">Noviembre</string>
+    <string name="december">Diciembre</string>
+
+        <!-- languages -->
+    <string name="english">Inglés</string>
+    <string name="spanish">Español</string>
+    <string name="russian">Ruso</string>
+
+        <!-- filter tags -->
+    <string name="week">SEMANA</string>
+    <string name="month">MES</string>
+    <string name="all">TODO</string>
+
+    <!--  Add Money Source screen  -->
+    <string name="add_ms_title">Agregar Fuente de Dinero</string>
+    <string name="edit_ms_title">Editar Fuente de Dinero</string>
+    <string name="ms_name_label">Nombre de la fuente</string>
+    <string name="ms_amount_label">Сantidad de dinero</string>
+
+    <string name="error_input_amount">Cantidad de entrada no válida! :(</string>
+    <string name="error_add_ms">No se pudo agregar la fuente de dinero :(</string>
+    <string name="error_update_ms">No se pudo actualizar los datos de la fuente de dinero :(</string>
+    <string name="error_ms_not_found">Error: No se pudo encontrar esta fuente de dinero :(</string>
+
+    <string name="include_in_total_row">Incluir en el saldo total</string>
+
+    <!-- Money Sources -->
+    <string name="delete_text">Eliminar</string>
+    <string name="delete_dialog_text_1">¿Está seguro de que desea</string>
+    <string name="delete_dialog_text_2">\u0020eliminar\u0020</string>
+    <string name="delete_dialog_text_3">estos datos? Ya</string>
+    <string name="delete_dialog_text_4">\u0020no\u0020</string>
+    <string name="delete_dialog_text_5">se restaurará!</string>
+
+    <string name="one_time_dialog_1">¡</string>
+    <string name="one_time_dialog_2">No\u0020</string>
+    <string name="one_time_dialog_3">puede eliminarlo!</string>
+    <string name="one_time_dialog_4">Debe haber al menos</string>
+    <string name="one_time_dialog_5">\u0020una\u0020</string>
+    <string name="one_time_dialog_6">fuente de dinero</string>
+
+    <string name="money_sources">Fuentes de Dinero</string>
+    <string name="total_included">Total incluido:</string>
+    <string name="total_money">Dinero total:</string>
+    <string name="delete_ms_description">eliminar fuente de dinero</string>
+    <string name="error_delete_ms">No se pudo eliminar la fuente de dinero :(</string>
+
+    <!-- Add payment bottom sheet -->
+    <string name="date_label">Fecha</string>
+    <string name="date_icon_description">fecha de pago</string>
+    <string name="date_supporting_text">¡Seleccione una fecha!</string>
+
+    <string name="description_label">Descripción</string>
+    <string name="description_supporting_text">¡Introduzca la descripción!</string>
+
+    <string name="amount_label">Cantidad</string>
+    <string name="amount_supporting_text_0">¡Introduzca la cantidad!</string>
+    <string name="amount_supporting_text_1">Patrón: 100.99</string>
+
+    <string name="month_tag_label">Mes</string>
+    <string name="month_tag_icon_description">mes tag icono</string>
+    <string name="month_tag_supporting_text">¡Seleccione el mes!</string>
+
+    <string name="money_source_label">Fuente de Dinero</string>
+    <string name="ms_icon_def_description">fuente de dinero icono</string>
+    <string name="ms_icon_clean_description">fuente de dinero limpiar icono</string>
+    <string name="ms_supporting_text">Agrege la fuente de dinero aquí</string>
+
+    <string name="income_checkbox">Ingreso</string>
+    <string name="expense_checkbox">Gasto</string>
+
+    <string name="error_add_payment">No se pudo agregar el pago</string>
+    <string name="error_update_payment">No se pudo actualizar el pago</string>
+    <string name="error_ms_amount_update">No se pudo actualizar el valor del monto de la fuente de dinero :(</string>
+
+    <!-- home screen -->
+    <string name="amount_updating_animation">animación de actualización de cantidad</string>
+    <string name="home_topbar_text">Pagos</string>
+    <string name="incomes">Ingresos</string>
+    <string name="expenses">Gastos</string>
+    <string name="budget">Presupuesto</string>
+    <string name="error_get_payments_data">Problemas con la recuperación de datos. :(</string>
+
+    <!-- payments type list -->
+    <string name="total_amount">Monto total:</string>
+    <string name="undo_snackbar">Deshacer</string>
+    <string name="icon_arrow_back_description">flecha hacia atrás</string>
+    <string name="icon_clear_filter_description">icono de borrar filtro</string>
+    <string name="icon_filter_payments_description">filtrar pagos</string>
+    <string name="icon_edit_payment_description">editar pago</string>
+    <string name="icon_delete_payment_description">eliminar pago</string>
+    <string name="item_deleted">Elemento eliminado</string>
+    <string name="error_payment_delete">No se pudo eliminar el pago :(</string>
+    <string name="error_payment_restore">No se pudo restaurar un pago :(</string>
+
+    <!-- settings screen -->
+    <string name="icon_flag_description">idioma de la bandera</string>
+    <string name="settings_header">Ajustes</string>
+
+    <string name="language">Idioma</string>
+    <string name="choose_language_text">Elija el idioma de la aplicación</string>
+    <string name="icon_language_description">elegir idioma</string>
+
+    <string name="theme">Tema</string>
+    <string name="theme_body">Cambiar al tema oscuro</string>
+    <string name="icon_theme_description">elegir tema</string>
+
+    <string name="delete_settings">Eliminar</string>
+    <string name="delete_settings_body">Elija el dato a Eliminar</string>
+    <string name="icon_delete_all_description">todo eliminar</string>
+
+    <string name="currency">Divisa</string>
+    <string name="currency_body">Elija la divisa de la aplicación.</string>
+    <string name="icon_currency_description">elegir divisa</string>
+
+    <string name="delete_payments1">Eliminar todos los\u0020</string>
+    <string name="delete_payments2">pagos</string>
+    <string name="delete_mss1">Eliminar todos las\u0020</string>
+    <string name="delete_mss2">Fuentes de Dinero</string>
+
+    <string name="error_delete_all">No se pudo eliminar :(</string>
+    <string name="error_currency_picked">No se pudo seleccionar :(</string>
+
+    <!-- Currency signs -->
+    <string name="none">Nada</string>
+    <string name="colon">\u20A1</string>
+    <string name="dollar">\u0024</string>
+    <string name="dram">\u058F</string>
+    <string name="euro">\u20AC</string>
+    <string name="frank">\u20A3</string>
+    <string name="guarani">\u20B2</string>
+    <string name="grivna">\u20B4</string>
+    <string name="lari">\u20BE</string>
+    <string name="lira">\u20BA</string>
+    <string name="manat">\u20BC</string>
+    <string name="naira">\u20A6</string>
+    <string name="peso">\u20B1</string>
+    <string name="pound">\u00A3</string>
+    <string name="ruble">\u20BD</string>
+    <string name="rupee">\u20B9</string>
+    <string name="shekel">\u20AA</string>
+<!--    <string name="som">\u20C0</string>-->
+    <string name="tenge">\u20B8</string>
+    <string name="tugrik">\u20AE</string>
+    <string name="won">\u20A9</string>
+    <string name="yen">\u00A5</string>
+
+    <!-- Chart screen  -->
+    <string name="chart_top_bar">Gráficos</string>
+    <string name="incomes_big">INGRESOS</string>
+    <string name="expenses_big">GASTOS</string>
+    <string name="sum">suma:</string>
+    <string name="no_data">¡Sin datos!</string>
+
+</resources>

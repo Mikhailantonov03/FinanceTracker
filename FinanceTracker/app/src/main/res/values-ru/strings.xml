@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Finance Tracker</string>
+
+<!--    RUSSIAN -->
+
+    <!-- nav tabs strings   -->
+    <string name="payments_tab">Платежи</string>
+    <string name="charts_tab">Графики</string>
+    <string name="accounts_tab">Аккаунты</string>
+    <string name="settings_tab">Настройки</string>
+
+    <!-- dual button text -->
+    <string name="cancel">Отменить</string>
+    <string name="add">Добавить</string>
+    <string name="save">Сохранить</string>
+    <string name="ok">OK</string>
+
+    <!-- FAB icon description -->
+    <string name="fab_description">Кнопка добавить платеж</string>
+
+    <!-- Charts announce text -->
+    <string name="announce_text">Скоро…</string>
+
+    <!-- CONST -->
+        <!-- months -->
+    <string name="january">Январь</string>
+    <string name="february">Февраль</string>
+    <string name="march">Март</string>
+    <string name="april">Апрель</string>
+    <string name="may">Май</string>
+    <string name="june">Июнь</string>
+    <string name="july">Июль</string>
+    <string name="august">Август</string>
+    <string name="september">Сентябрь</string>
+    <string name="october">Октябрь</string>
+    <string name="november">Ноябрь</string>
+    <string name="december">Декабрь</string>
+
+        <!-- languages -->
+    <string name="english">Английский</string>
+    <string name="spanish">Испанский</string>
+    <string name="russian">Русский</string>
+
+        <!-- filter tags -->
+    <string name="week">НЕДЕЛЯ</string>
+    <string name="month">МЕСЯЦ</string>
+    <string name="all">ВСЕ</string>
+
+    <!--  Add Money Source screen  -->
+    <string name="add_ms_title">Добавить Источник Денег</string>
+    <string name="edit_ms_title">Изменить Источник Денег</string>
+    <string name="ms_name_label">Имя источника</string>
+    <string name="ms_amount_label">Количество денег</string>
+
+    <string name="error_input_amount">Введено неверное значение! :(</string>
+    <string name="error_add_ms">Не получилось добавить источник денег :(</string>
+    <string name="error_update_ms">Не получилось обновить данные источника денег :(</string>
+    <string name="error_ms_not_found">Ошибка: Не получилось найти этот источник :(</string>
+
+    <string name="include_in_total_row">Включить в общий баланс</string>
+
+    <!-- Money Sources -->
+    <string name="delete_text">Удалить</string>
+    <string name="delete_dialog_text_1">Вы уверены, что хотите</string>
+    <string name="delete_dialog_text_2">\u0020удалить\u0020</string>
+    <string name="delete_dialog_text_3">эти данные? Вы</string>
+    <string name="delete_dialog_text_4">\u0020не\u0020</string>
+    <string name="delete_dialog_text_5">сможете их восстановить!</string>
+
+    <string name="one_time_dialog_1">Вы</string>
+    <string name="one_time_dialog_2">\u0020не\u0020</string>
+    <string name="one_time_dialog_3">можете удалить это!</string>
+    <string name="one_time_dialog_4">должен быть по крайней мере</string>
+    <string name="one_time_dialog_5">\u0020один\u0020</string>
+    <string name="one_time_dialog_6">источник денег</string>
+
+    <string name="money_sources">Источники денег</string>
+    <string name="total_included">Только включенный баланс:</string>
+    <string name="total_money">Всего денег:</string>
+    <string name="delete_ms_description">удалить источник денег</string>
+    <string name="error_delete_ms">Не удалось удалить Источник Денег :(</string>
+
+    <!-- Add payment bottom sheet -->
+    <string name="date_label">Дата</string>
+    <string name="date_icon_description">дата платежа</string>
+    <string name="date_supporting_text">Выберите дату!</string>
+
+    <string name="description_label">Описание</string>
+    <string name="description_supporting_text">Добавьте описание!</string>
+
+    <string name="amount_label">Сумма</string>
+    <string name="amount_supporting_text_0">Введите сумму!</string>
+    <string name="amount_supporting_text_1">Шаблон: 100.99</string>
+
+    <string name="month_tag_label">Тэг Месяца</string>
+    <string name="month_tag_icon_description">иконка тэга месяца</string>
+    <string name="month_tag_supporting_text">Выберите тэг месяца!</string>
+
+    <string name="money_source_label">Источник денег</string>
+    <string name="ms_icon_def_description">иконка источника денег</string>
+    <string name="ms_icon_clean_description">иконка очистки источника денег</string>
+    <string name="ms_supporting_text">Выберите источник денег здесь</string>
+
+    <string name="income_checkbox">Доход</string>
+    <string name="expense_checkbox">Расход</string>
+
+    <string name="error_add_payment">Не получилось добавить платеж :(</string>
+    <string name="error_update_payment">Не получилось обновить платеж :(</string>
+    <string name="error_ms_amount_update">Не получилось обновить сумму источника денег :(</string>
+
+    <!-- home screen -->
+    <string name="amount_updating_animation">анимация обновление суммы</string>
+    <string name="home_topbar_text">Платежи</string>
+    <string name="incomes">Доходы</string>
+    <string name="expenses">Расходы</string>
+    <string name="budget">Бюджет</string>
+    <string name="error_get_payments_data">Проблемы с загрузкой данных :(</string>
+
+    <!-- payments type list -->
+    <string name="total_amount">Всего:</string>
+    <string name="undo_snackbar">Отменить</string>
+    <string name="icon_arrow_back_description">стрелка назад</string>
+    <string name="icon_clear_filter_description">очистить фильтр</string>
+    <string name="icon_filter_payments_description">фильтр платежей</string>
+    <string name="icon_edit_payment_description">изменить платеж</string>
+    <string name="icon_delete_payment_description">удалить платеж</string>
+    <string name="item_deleted">Платеж удален</string>
+    <string name="error_payment_delete">Не получилось удалить платеж :(</string>
+    <string name="error_payment_restore">Не получилось восстановить платеж :(</string>
+
+    <!-- settings screen -->
+    <string name="icon_flag_description">флаг языка</string>
+    <string name="settings_header">Настройки</string>
+
+    <string name="language">Язык</string>
+    <string name="choose_language_text">Выберите язык приложения</string>
+    <string name="icon_language_description">выбор языка</string>
+
+    <string name="theme">Тема</string>
+    <string name="theme_body">Переключится на темную тему</string>
+    <string name="icon_theme_description">выбор темы</string>
+
+    <string name="delete_settings">Удалить</string>
+    <string name="delete_settings_body">Выберите, какие данные удалить</string>
+    <string name="icon_delete_all_description">удалить все</string>
+
+    <string name="currency">Валюта</string>
+    <string name="currency_body">Выберите валюту всех платежей</string>
+    <string name="icon_currency_description">выбор валюты</string>
+
+    <string name="delete_payments1">Удалить все\u0020</string>
+    <string name="delete_payments2">платежи</string>
+    <string name="delete_mss1">Удалить все\u0020</string>
+    <string name="delete_mss2">Источники Денег</string>
+
+    <string name="error_delete_all">Не удалось удалить :(</string>
+    <string name="error_currency_picked">Не получилось выбрать :(</string>
+
+    <!-- Currency signs -->
+    <string name="none">Ничего</string>
+    <string name="colon">\u20A1</string>
+    <string name="dollar">\u0024</string>
+    <string name="dram">\u058F</string>
+    <string name="euro">\u20AC</string>
+    <string name="frank">\u20A3</string>
+    <string name="guarani">\u20B2</string>
+    <string name="grivna">\u20B4</string>
+    <string name="lari">\u20BE</string>
+    <string name="lira">\u20BA</string>
+    <string name="manat">\u20BC</string>
+    <string name="naira">\u20A6</string>
+    <string name="peso">\u20B1</string>
+    <string name="pound">\u00A3</string>
+    <string name="ruble">\u20BD</string>
+    <string name="rupee">\u20B9</string>
+    <string name="shekel">\u20AA</string>
+<!--    <string name="som">\u20C0</string>-->
+    <string name="tenge">\u20B8</string>
+    <string name="tugrik">\u20AE</string>
+    <string name="won">\u20A9</string>
+    <string name="yen">\u00A5</string>
+
+    <!-- Chart screen  -->
+    <string name="chart_top_bar">Графики</string>
+    <string name="incomes_big">ДОХОДЫ</string>
+    <string name="expenses_big">РАСХОДЫ</string>
+    <string name="sum">сумма:</string>
+    <string name="no_data">Нет данных!</string>
+
+</resources>
